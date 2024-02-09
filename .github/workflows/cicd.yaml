@@ -31,6 +31,9 @@ jobs:
             tags: |
              us-west1-docker.pkg.dev/impactful-shard-412809/serfa-gcp-tp/serfagcp2:latest
              us-west1-docker.pkg.dev/impactful-shard-412809/serfa-gcp-tp/serfagcp2:${{ github.sha }} # CONTINUOUS DEPLOYMENT
+    
+
+     # CONTINUOUS DEPLOYMENT
     deploy-to-cloud-run:
         runs-on: ubuntu-latest
         # permet d'éviter les race conditions
