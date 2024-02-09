@@ -52,5 +52,5 @@ jobs:
           - name: "update Cloud Run job"
             run: |
              gcloud run jobs deploy screenshotter --image=us-west1-docker.pkg.dev/impactful-shard-412809/serfa-gcp-tp/serfagcp2:latest --region=europe-west1
-             id: Deploy
+            id: Deploy
     entrypoint: gcloud
